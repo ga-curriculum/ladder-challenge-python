@@ -26,5 +26,47 @@
 * Replace the period at the end of `fact` with an exclamation point.
 * Use `.split()` to get the second word of this string. Was this easier than one of the problems above?
 * Reverse `fact`.
+* Does `fact` contain the letter `y`? To find this answer, use the `in` keyword.
+* How many `o`s does `fact` have?
+* Replace all the `o`s in `fact` with an underscore (do not redefine `fact`).
 
 # Lists
+* Create a list `friends` of your three best friends, `"Alice"`, `"Bob"`, and `"Charlie"`.
+* Find the length of `friends`.
+* Add your new friend, `"Debbie"` to your list of `friends`.
+* Charlie has no-showed to your piano recital. Remove him from your `friends`.
+* Using the `.join()` method, join `friends` to look like this _exactly_: `"Alice & Bob & Debbie"`
+* What is the length of `[]`? What about `[[]]`? Why?
+
+`nested_deep = [1, [2, 3], 4, [5, [6, 7, [8]]]]`
+
+* What is the length of `nested_deep`?
+* Index `nested_deep` to get the 5.
+* Index `nested_deep` to get the 8.
+
+# Conditionals and Loops
+* Print out the numbers 1 through 10.
+* Print out the even numbers between 1 and 20 by using the third paramter to the `range()` function.
+* Print out the even numbers between 1 and 20 by checking if the number is even before printing.
+* What is the sum of the first 100 integers? Hint: Create a variable `total` equal to zero, and increment `total` inside a loop.
+* For each friend in your `friends` list above, print `"PERSON IS AWESOME!"` in all caps, where `PERSON` is of course replaced with your friend's name.
+* Similar to the last problem, print `"PERSON IS AWESOME!"` for each friend in your friends list _only if their name ends in a vowel_. Otherwise, print `"person is ok..."` (all lowercase). 
+* For each number between 1 and 30, if a number is divisible by 3, print `"Fizz"`. Otherwise, just print the number.
+* For each number between 1 and 30, if a number is divisible by 5, print `"Buzz"`. Otherwise, just print the number.
+* For each number between 1 and 30,
+    - if a number is divisible by 3, print `"Fizz"`
+    - if a number is divisible by 5, print `"Buzz"`
+    - if a number is divisible by both 3 and 5, instead print `"Fizzbuzz"`,
+    - otherwise, just print the number
+This problem is the famous "Fizzbuzz" problem - and is a very common interview coding challenge! If you can do this without help, you're making awesome progress! Well done!
+* Define some string `sentence`. If you can't think of a good one, feel free to use `fact` above.
+* Count the number of vowels in `sentence` (no, y is not a vowel).
+* Define a variable `sentence_rm` that is equal to `sentence` with all vowels removed. Hint: This is a tough one. Start out with an empty string and concatenate all of the consonants to it inside a loop.
+* Create a variable `fav_number` equal to whatever is your favorite integer. Write a loop to determine if `fav_number` is prime. Recall that a prime number is any number whose only divisors are 1 and itself. For example, 6 is not prime since it's divisible by 1, 2, 3, and 6. But 7 _is_ prime since it's only divisible by 1 and 7.
+* A palindromic number reads the same both ways. For example, 1234321 is a palindrome. The largest palindrome made from the product of two two-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two three-digit numbers.
+
+# List Comprehensions
+
+
+
+
