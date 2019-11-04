@@ -66,6 +66,30 @@ This problem is the famous "Fizzbuzz" problem - and is a very common interview c
 * A palindromic number reads the same both ways. For example, 1234321 is a palindrome. The largest palindrome made from the product of two two-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two three-digit numbers.
 
 # List Comprehensions
+### Disclaimer:
+Many (maybe all) of these exercises can be done without a list comprehension. However, listcomps are often the easiest way to solve a problem like this. Listcomps are also optimized in Python, meaning they are also often the _fastest_ way to solve a problem.
+
+* Create a list of the numbers 1 through 10.
+* Create a list of the squares of the numbers between 1 and 10.
+* Create a list of all the even numbers between 18 and 47.
+* Create a list of the squares of the even numbers between 1 and 20.
+* What is the sum of the cubes of the numbers between 5 and 10?
+* Create a list of all of the numbers divisible by either 3 or 5 (or both) between 1 and 30.
+* Let `friends = ["Alice", "Bob", "Charlie", "Derek"]`. Redefine this list to be all uppercase.
+* Remove all elements from `friends` whose names do not end in a vowel.
+* You need to access Excel files that have names like `Jan 5.xlsx` or `Mar 15.xlsx`. Create a list of January 1 through January 31 like this. That is, create the list of: `["Jan 1.xlsx", "Jan 2.xlsx", ... , "Jan 31.xlsx"]`.
+* Take the string `"avocado"` and redefine it to be `"aVoCaDo"`. (That is, capitalize only the consonants). (Hint: You'll find the `.join()`) method to be useful here.)
+
+# Functions
+* Area circle
+* Leet Speak
+* Remove Vowels
+* `is_prime`
+* Sum of primes below n
+
+
+
+
 
 
 
