@@ -81,11 +81,45 @@ Many (maybe all) of these exercises can be done without a list comprehension. Ho
 * Take the string `"avocado"` and redefine it to be `"aVoCaDo"`. (That is, capitalize only the consonants). (Hint: You'll find the `.join()`) method to be useful here.)
 
 # Functions
-* Area circle
-* Leet Speak
-* Remove Vowels
-* `is_prime`
-* Sum of primes below n
+* Write a function to compute the area of a triangle. You only need the base and height of a triangle to compute its area.
+* Import `pi` from `math` and write a function to compute the area of a circle. You only need the radius of a circle to compute its area.
+* Write a function that takes in a number `n` and returns the sum of the numbers 1 through `n`.
+* Write a function that takes in a number `n` and returns the sum of the square of the numbers 1 through `n`.
+* Write a function that takes a list of amounts in euros, and returns them converted to dollars. (You did this in Section V)
+* Write a function that takes a list of heights and returns "Tall enough" if they are at least 5 feet (60 inches) or "Too short" if they are below 5 feet.
+* Write a function that takes in a numeric grade (0 to 100) and returns the letter grade (no pluses or minuses). In a traditional rubric, that would be as follows:
+    * 90 or above = A
+    * 80 - 89 = B
+    * 70 - 79 = C
+    * 60 - 69 = D
+    * 59 or below = F
+* Write _another_ function that takes a list of numeric grades and returns their letter grades. Use the function written above in your answer.
+
+* Write a function that takes in a string and returns the number of vowels in that string.
+* Write a function that takes in a string and returns that string with its consonants capitalized and vowels lowercased.
+* Write a function that takes in a string and returns that string with its vowels removed.
+* Write a function that takes in a string (likely multiple words long) and returns that string with each word reversed, but with the words in the same order.
+
+* Write a function that converts a string to "leet speak". Leet speak is a made-up internet language which you replace characters with symbols that look like those characters. For example:
+
+Example: `to_leet_speak("i am elite") --> "! @M 31!73"`
+
+Below is the English-to-leet dictionary:
+
+```
+leet_dict = {'A' : '@', 'B' : '8', 'C' : '(', 'D' : 'D', 'E' : '3',
+             'F' : 'F', 'G' : '6', 'H' : '#', 'I' : '!', 'J' : 'J',
+             'K' : 'K', 'L' : '1', 'M' : 'M', 'N' : 'N', 'O' : '0',
+             'P' : 'P', 'Q' : 'Q', 'R' : 'R', 'S' : '$', 'T' : '7',
+             'U' : 'U', 'V' : 'V', 'W' : 'W', 'X' : 'X', 'Y' : 'Y',
+             'Z' : '2'}
+```
+
+This problem is borrowed from [this](https://www.codewars.com/kata/toleetspeak) wonderful Codewars challenge!
+
+* Write an `is_prime` function that takes in a number and returns a boolean of whether or not that number was prime. (Hint: You already did this)
+
+* Write a function that takes in a number and returns the sum of all primes less than or equal to that number.
 
 
 
