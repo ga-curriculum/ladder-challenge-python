@@ -16,7 +16,6 @@ This repository contains three notebooks, separated only so they do not get too 
 | 3 | VII | Functions |
 | 3 | VIII | What's next? |
 
-## Solutions?
-Solutions will _never_ be uploaded here. Your instructor may give you solutions at their own discretion. We encourage the use of Googling to aid you in solving these problems\*! That's how the pros do it!
+We encourage the use of Googling to aid you in solving these problems\*! That's how the pros do it!
 
 \* That is, Googling _how_ to solve a problem. Not Googling solutions to problems.
